@@ -1,0 +1,19 @@
+ .user-card{
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    width: 300px; /* Adjust as needed */
+    background-color:black; /* Or any color you prefer */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(240, 9, 9, 0.622); /* Creates a subtle shadow */
+    transition: transform 0.3s; 
+    color: white;
+ }
+
+ @media (max-width: 768px) {
+    .user-card {
+      width: 90%; /* Adjust for smaller screens */
+      margin: 0 auto; /* Center on small screens */
+    }
+  }
